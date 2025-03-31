@@ -3,7 +3,7 @@ public class NurseService implements MedicalService{
     private int NurseTelNo;
 
     public NurseService(String NurseName) {
-        this.NurseName = NurseName;
+        super.NurseName = NurseName;
     }
 
     @Override
