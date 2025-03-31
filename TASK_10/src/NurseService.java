@@ -1,5 +1,6 @@
 public class NurseService implements MedicalService{
     private String NurseName;
+    private int NurseTelNo;
 
     public NurseService(String NurseName) {
         this.NurseName = NurseName;
