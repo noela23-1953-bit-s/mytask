@@ -1,5 +1,5 @@
 public class DoctorService implements MedicalService{
-    String DoctorName;
+    private String DoctorName;
     int DoctorId;
 
     public DoctorService(String doctorName, int doctorId) {
