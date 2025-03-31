@@ -5,7 +5,7 @@ public class DoctorService implements MedicalService{
     
 
     @Override
-    public String ProvideCare(String patientName) {
+    public  String ProvideCare(String patientName) {
         System.out.println("Doctor " +  DoctorName + " is providing care to " + patientName);
         return "Patient" + patientName + " has been treated by Doctor " + DoctorName;
     }
