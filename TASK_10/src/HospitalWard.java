@@ -4,7 +4,7 @@ public class HospitalWard {
     public HospitalWard(MedicalService medicalService) {
         this.medicalService = medicalService;
     }
-    public void admitPatient(String patientName){
+    public final void admitPatient(String patientName){
         String result = medicalService.ProvideCare(patientName);
         System.out.println(result);
     }
