@@ -2,7 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        MedicalService doctorService = new DoctorService("Mr Beniforce",30);
+        MedicalService doctorService = new DoctorService("Mr Kato",30);
         MedicalService nurseService = new NurseService("Miss Harriet");
 
         HospitalWard generalWard = new HospitalWard(doctorService);
