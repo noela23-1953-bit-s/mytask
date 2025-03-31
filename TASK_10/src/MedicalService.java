@@ -1,4 +1,4 @@
 interface MedicalService {
-    String ProvideCare(String patientName);
+  static String ProvideCare(String patientName);
 
 }
